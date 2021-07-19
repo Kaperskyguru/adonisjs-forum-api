@@ -20,9 +20,7 @@
 
 import Route from "@ioc:Adonis/Core/Route";
 
-Route.get("/", async () => {
-  return { hello: "world" };
-});
+Route.get("/", "ForumsController.test");
 
 Route.group(() => {
   Route.post("register", "AuthController.register");

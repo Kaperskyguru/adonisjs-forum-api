@@ -22,6 +22,8 @@
     "@adonisjs/redis": "^7.0.7",
     "@adonisjs/repl": "^1.1.6",
     "@kaperskyguru/adonis-cache": "^2.1.0",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.0.0",
     "luxon": "^1.25.0",
     "mysql": "^2.18.1",
     "mysql2": "^2.2.5",

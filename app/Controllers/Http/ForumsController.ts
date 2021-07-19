@@ -4,9 +4,17 @@ import Logger from "@ioc:Adonis/Core/Logger";
 import Cache from "@ioc:Kaperskyguru/Adonis-Cache";
 
 export default class ForumsController {
-  public async index({}: HttpContextContract) {
-    const forums = await Forum.query().preload("user").preload("posts");
+  public async test({}: HttpContextContract) {
     Logger.info("Forums retrieved successfully");
+
+    return {
+      hello: "world",
+    };
+  }
+
+  public async index({ logger }: HttpContextContract) {
+    const forums = await Forum.query().preload("user").preload("posts");
+    logger.info("Forums retrieved successfully");
     return forums;
   }
 
