@@ -19,6 +19,7 @@
     "@adonisjs/auth": "^5.1.1",
     "@adonisjs/core": "^5.0.4-preview-rc-2.1",
     "@adonisjs/lucid": "^10.0.0",
+    "@adonisjs/redis": "^7.0.7",
     "@adonisjs/repl": "^1.1.6",
     "@kaperskyguru/adonis-cache": "^2.1.0",
     "luxon": "^1.25.0",

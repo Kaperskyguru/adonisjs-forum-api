@@ -30,7 +30,8 @@
       "@adonisjs/repl",
       "@adonisjs/lucid",
       "@adonisjs/auth",
-      "@kaperskyguru/adonis-cache"
+      "@kaperskyguru/adonis-cache",
+      "@adonisjs/redis"
     ]
   }
 }
